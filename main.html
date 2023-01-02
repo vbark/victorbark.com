@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <style>
+    /* CSS styles go here */
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    /* Navigation menu styles */
+    .nav {
+      background-color: lightblue;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      height: 50px;
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    .nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    .nav li {
+      margin: 0 10px;
+    }
+    .nav a {
+      text-decoration: none;
+      color: navy;
+      font-size: 18px;
+    }
+    /* Main content styles */
+    .main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    .main .article {
+      width: 100%;
+      max-width: 800px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    .article h2 {
+      margin: 20px;
+      font-size: 24px;
+    }
+    .article p {
+      margin: 20px;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    /* Footer styles */
+    .footer {
+      background-color: lightgray;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    /* Media queries for responsive layout */
+    @media (max-width: 992px) {
+      .main .article {
+        width: 50%;
+      }
+    }
+    @media (max-width: 768px) {
+      .main .article {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation menu -->
+  <nav class="nav">
+    <a href="#">Logo</a>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li>
+        <a href="#">Menu</a>
+        <ul>
+          <li><a href="#">Item 1</a></li>
+          <li><a href="#">Item 2</a></li>
+          <li><a href="#">Item 3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</body>
