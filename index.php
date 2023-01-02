@@ -24,8 +24,8 @@
 <body>
   <h1>Hello, World!</h1>
   <p>Welcome to my personal webpage.</p>
-  <p>My name is [Your Name] and I am a [Your Profession].</p>
-  <p>Feel free to <a href="mailto:[Your Email]">contact me</a>.</p>
+  <p>My name is Victor Bark and I am a IT-Engineer.</p>
+  <p>Feel free to <a href="mailto:[me@victorbark.com]">contact me</a>.</p>
   <script>
     console.log('This is some JavaScript');
   </script>
