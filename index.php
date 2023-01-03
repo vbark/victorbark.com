@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Personal Webpage</title>
+  <title>Victor Bark</title>
   <link rel="icon" type="image/png" href="letter-v.png">
   <link rel="stylesheet" href="style.css">
 </head>

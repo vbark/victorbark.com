@@ -1,11 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fafafa;
+    background-color: #202222;
+    color: beige;
     text-align: center;
   }
   h1 {
-    color: #333;
     margin: 20px 0;
+    text-shadow: 2px 2px black;
   }
   p {
     margin: 20px 0;
